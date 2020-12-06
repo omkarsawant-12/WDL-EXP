@@ -1,0 +1,48 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+section
+{
+	padding:0 100px;
+	background: url(cafe.jpg);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.box{
+	position: relative;
+	margin: 100px;
+	max-width: 800px;
+	max-height: 600px;
+	padding: 70px;
+	background: rgb(0,0,0,0.7);
+
+}
+.box h2
+{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+
+}
+.box p
+{
+	margin:3px;
+	padding: 0;
+	font-size: 25px;
+	justify-content: center;
+	word-spacing: 2px;
+	line-height: 1.8;
+	text-transform: uppercase;
+	color: white;
+}
+.box h1
+{
+	color: white;
+	margin-left: 300px;
+}

@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+html,body{
+	position:relative;
+	height:100%;}
+	
+	body{
+		margin:100px;
+		padding:400px;
+
+		font-family:montserrat,sans-serif;
+		background-image: url(shop.jpg);
+		background-size: cover;
+	 }
+		
+		
+		.slider-box{
+			margin:40px;
+			height:450px;
+			width:350px;
+			position:relative;
+			background-color:#FFFFFF;
+			border-radius:5px;
+			box-shadow: 5px 5px 10px black;
+
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			border:5px solid black;
+			
+			}
+			.slider-box a{
+				text-decoration:none;
+				text-align:center;}
+				.img-box{
+					height:170px;
+					}
+					.img-box img{
+						height:auto;
+						max-width:100%;
+						max-height:100%;}
+						.time{
+							position:absolute;
+							top:0px;
+							right:20px;
+							color:#f16007;}
+							.detail{
+								display:flex;
+								flex-direction:column;
+								align-items:center;
+								box-sizing:border-box;
+								font-size:13px;
+								line-height:35px;}
+								.price{
+									text-size:3px;
+									color:white;
+									background-color:#ff696e;
+
+									 line-height:20px;}
+									 .cart{
+										 position:absolute;
+										 bottom:0px;
+										 height:50px;
+										 background-color:#000000;
+										 width:100%;
+										 display:flex;
+										 justify-content:center;
+										 align-items:center;}
+										 .cart a{
+											 color:#FFFFFF;}
+											 .slider-box:hover{
+												 box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+												 }
+												 .slider-box:hover .img-box img{
+													 transform:scale(1.8);
+													 transition:all ease 0.3s;}
+													 .cart:hover{
+														 transform:scale(1.5);
+														 background-color:#000000;
+							box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+							transition:all ease 0.1s;}
+							
+							
+							
+							
+							.heading{
+								
+								margin: 0px;
+								display:flex;
+								justify-content:center;
+							}
+							.heading h1{
+								border-left:2px solid #000000;
+								Border-right:2px solid #000000;
+							
+								
+								color:grey;
+								margin:10px;
+								font-size:70px;
+								font-family:calibri;}
